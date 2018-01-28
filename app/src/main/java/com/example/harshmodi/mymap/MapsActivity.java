@@ -52,7 +52,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     mMap.clear();
                     mMap.addMarker(new MarkerOptions().position(sydney).title("Marker"));
                     mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-                    Toast.makeText(getApplicationContext(), "GIT: "+lat+"  "+lon, Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "GIT: 2"+lat+"  "+lon, Toast.LENGTH_LONG).show();
                 }
 
                 @Override
